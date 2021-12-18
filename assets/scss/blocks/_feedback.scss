@@ -1,0 +1,52 @@
+.feedback {
+	position: relative;
+	margin-top: 30px;
+
+	&__title {
+		margin-bottom: 20px;
+	}
+}
+
+.feedback-block {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border: 2px solid $border-color;
+	border-radius: $border-light;
+
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 12px;
+	}
+
+	&__header-date {
+		font-size: 14px;
+		font-weight: $font-semi;
+		line-height: 18px;
+		color: rgba($text-color, 0.7);
+	}
+
+	&__user-info {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__user-name {
+		margin-left: 20px;
+		font-size: 18px;
+		font-weight: $font-semi;
+		line-height: 26px;
+		color: $text-color;
+	}
+
+	&__user-text {
+		margin-top: 12px;
+		font-size: 12px;
+		line-height: 20px;
+		text-align: center;
+		color: rgba($text-color, 0.7);
+	}
+}
