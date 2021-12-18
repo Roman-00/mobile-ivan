@@ -1,0 +1,59 @@
+.footer {
+	position: relative;
+	padding: 28px 0 20px;
+	background: $primary;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-location {
+	display: flex;
+	align-items: center;
+	margin-bottom: 18px;
+	font-size: 18px;
+	font-weight: $font-semi;
+	line-height: 24px;
+	color: $white;
+
+	svg {
+		margin-right: 10px;
+	}
+}
+
+.footer-contacts {
+	margin-bottom: 28px;
+
+	&__phone {
+		display: block;
+		padding-left: 30px;
+		font-size: 18px;
+		font-weight: $font-semi;
+		line-height: 26px;
+		background: url('assets/images/phone-l.png') no-repeat left center;
+		color: $white;
+	}
+
+	&__email {
+		display: block;
+		margin-top: 5px;
+		font-size: 14px;
+		line-height: 24px;
+		color: $white;
+	}
+}
+
+.footer-copyright {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: $white;
+
+	span {
+		display: block;
+	}
+}
