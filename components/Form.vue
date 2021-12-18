@@ -3,6 +3,7 @@
 		id="form"
 		:class="isError ? 'form-error' : ''"
 		class="form"
+		@submit.prevent="formDataSubmit"
 	>
 		<div class="form-group">
 			<input
