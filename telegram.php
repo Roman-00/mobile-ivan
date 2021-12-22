@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ? https://api.telegram.org/bot5068551815:AAG1j83cPjog2eiF8EzC8mhakWUnVEnpro0/getUpdates,
+ * ? https://api.telegram.org/botXXXXXX/getUpdates,
  * ? где - XXXXXXXXXXXXXXXX -токен вашего бота, полученый ранее
  */
 
@@ -11,8 +11,8 @@ $obj = json_decode($json, true);
 $name 				= $obj['name'];
 $phone 				= $obj['phone'];
 $textValuation 		= $obj['valuationFrom'];
-$api_Token 			= "5068551815:AAG1j83cPjog2eiF8EzC8mhakWUnVEnpro0";
-$chat_id 			= "-723121263";
+$api_Token 			= "5095949470:AAGCF0gfXc2-r4mfGKcfl9T0QMd8FhaUGx4";
+$chat_id 			= "-675059697";
 
 $arr = array(
 	'Заявка' => '',
